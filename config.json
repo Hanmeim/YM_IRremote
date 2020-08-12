@@ -1,0 +1,43 @@
+{
+  "name": {
+    "zh-cn": "YM红外遥控器",
+    "en": "YM_IRremote"
+  },
+  "description": {
+    "zh-cn": "一种红外遥控器",
+    "en": "a IRremote"
+  },
+  "author": "conghan",
+  "email": "conghan1994@126.com",
+  "license": "MIT",
+  "isBoard": false,
+  "id": "YM_IRremote",
+  "platform": [
+    "win",
+    "mac",
+    "web"
+  ],
+  "version": "0.0.1",
+  "asset": {
+    "arduinoC": {
+      "dir": "arduinoC/",
+      "version": "0.0.2",
+      "board": [
+        "arduino"
+      ],
+      "main": "main.ts",
+      "files": [
+        "_images/icon.svg",
+        "_locales/zh-cn.json",
+        "_menus/arduino.json",
+        "_menus/arduinonano.json",
+        "_menus/esp32.json",
+        "_menus/leonardo.json",
+        "_menus/mega2560.json",
+        "_menus/microbit.json",
+        "main.ts",
+        "libraries/libraries.zip"
+      ]
+    }
+  }
+}
